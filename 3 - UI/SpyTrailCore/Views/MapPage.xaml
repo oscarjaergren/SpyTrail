@@ -6,11 +6,8 @@
              xmlns:maps="clr-namespace:Xamarin.Forms.Maps;assembly=Xamarin.Forms.Maps"
              mc:Ignorable="d"
              x:Class="SpyTrail.Views.MapPage">
-    <StackLayout VerticalOptions="StartAndExpand" Padding="30">
+    <StackLayout >
         <maps:Map x:Name="MyMap"
-                  WidthRequest="320"
-                  HeightRequest="200"                  
-                  IsShowingUser="true"
-                  MapType="Hybrid" />
+                  IsShowingUser="True"/>
     </StackLayout>
 </ContentPage>
